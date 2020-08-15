@@ -3,7 +3,9 @@
 :stylesheet: stylesheets/monospace.css
 :nofooter:
 
+ifdef::backend-html5[]
 Curriculum Vitae
+endif::[]
 
 == Summary
 [horizontal]
@@ -14,6 +16,8 @@ icon:asterisk[]:: Primarily involved with software development but worked on all
 
 == Employment History
 
+// Section header for web output
+ifdef::backend-html5[]
 === https://www.bnpparibas.co.uk[BNP Paribas]
 
 [NOTE]
@@ -26,6 +30,19 @@ icon:asterisk[]:: Primarily involved with software development but worked on all
 3+|_Front Office; Sell Side; Java Micro Services; FIX; ION_
 |===
 ====
+endif::[]
+
+// Same as above but for PDF output
+ifdef::backend-pdf[]
+[frame=topbot]
+[grid=none]
+[cols="<1,^2,>1"]
+|===
+|*BNP Paribas*|*April 2019 – Present (Contract)*|*Marylebone, London*
+3+|Credit e-Trading
+3+|_Front Office; Sell Side; Java Micro Services; FIX; ION_
+|===
+endif::[]
 
 Developed an internal ION gateway to trade Asset Backed Securities.
 The Java service manages the workflow between sales and traders within BNP using a finite state machine to keep track of the state of the request as it goes through the negotiation process.
@@ -41,6 +58,7 @@ Built a plug-in for ION.Net to allow BNP Credit traders to execute orders receiv
 When orders are received the plug-in allows the BNP trader to adjust the agreed quantity to fill or partially fill an order.
 This plug-in, written in C#, uses ION’s proprietary .Net libraries to display the order to the trader as well as the result of some internal consistency and compliance checks.
 
+ifdef::backend-html5[]
 === https://demo.gammadex.com[GammaDEX – Decentralized Ethereum Token Exchange]
 
 [NOTE]
@@ -55,6 +73,20 @@ This plug-in, written in C#, uses ION’s proprietary .Net libraries to display 
 3+|_Ethereum Blockchain; Solidity; JavaScript; Node.js; React; PostgreSQL_
 |===
 ====
+endif::[]
+
+ifdef::backend-pdf[]
+[frame=topbot]
+[grid=none]
+[cols="<1,^2,>1"]
+|===
+|*GammaDex*
+|*March 2018 – April 2019*
+|*Canary Wharf, London*
+3+|Decentralized Ethereum Token Exchange - Personal Project
+3+|_Ethereum Blockchain; Solidity; JavaScript; Node.js; React; PostgreSQL_
+|===
+endif::[]
 
 Engaged in a full-time project with two former Morgan Stanley colleagues to build GammaDEX, a decentralised Ethereum token exchange with the aim of building the application out in to a profitable business.
 GammaDEX went live in August, 2018 and attracted a small but loyal user base.
@@ -69,6 +101,7 @@ Built and deployed a Connect 4 game implementation on the Ethereum Blockchain an
 Game state is maintained on-chain.
 Users pay small amounts of Ether to take turns to make moves, the winner claiming all of the funds paid in during the game.
 
+ifdef::backend-html5[]
 === https://www.morganstanley.com[Morgan Stanley & Co.]
 
 [NOTE]
@@ -83,6 +116,18 @@ Users pay small amounts of Ether to take turns to make moves, the winner claimin
 3+|_Front Office, Buy Side; Java 8 Service; Sybase_
 |===
 ====
+endif::[]
+
+ifdef::backend-pdf[]
+[frame=topbot]
+[grid=none]
+[cols="<1,^2,>1"]
+|===
+|*Morgan Stanley & Co.*|*Aug 2015 – March 2018 (Contract)*|*Canary Wharf, London*
+3+|Investment Management (MSIM)
+3+|_Front Office, Buy Side; Java 8 Service; Sybase_
+|===
+endif::[]
 
 Sole developer on Juno, a greenfield project to develop an Investment Book of Record for MSIM.
 The Juno system includes the Juno Engine, a transaction loader and position reconciliation.
@@ -98,6 +143,7 @@ By using Juno to reconcile positions vs ESP we identified 30 problems with the v
 Several other problems were detected which cannot be fixed by the vendor.
 Juno is providing the MSIM business with up-to-date, accurate position data which cannot be provided by the vendor alone.
 
+ifdef::backend-html5[]
 === https://www.credit-suisse.com[Credit Suisse Securities Ltd.]
 
 [NOTE]
@@ -112,6 +158,18 @@ Juno is providing the MSIM business with up-to-date, accurate position data whic
 3+|_Back Office; C# (WPF); UI Development_
 |===
 ====
+endif::[]
+
+ifdef::backend-pdf[]
+[frame=topbot]
+[grid=none]
+[cols="<1,^2,>1"]
+|===
+|*Credit Suisse Securities*|*Feb 2013 – Aug 2015 (Contract)*|*Canary Wharf, London*
+3+|Market Risk
+3+|_Back Office; C# (WPF); UI Development_
+|===
+endif::[]
 
 Built a series of enhancements to the WPF based TSRD GUI including an interface for a new mechanism to analyse and manage the quality of time series data.
 Introduced view composition using dependency injection with MEF and MVVM Light to make the code base more manageable, help with unit testing and allow greater component reuse.
@@ -119,6 +177,7 @@ Introduced view composition using dependency injection with MEF and MVVM Light t
 Developed the Task Helper, a framework to automate time consuming manual tasks in to a user focussed multi-step workflow.
 Task Helper is helping to streamline operational work allowing the vital monthly recut process become a daily one.
 
+ifdef::backend-html5[]
 === https://www.morganstanley.com[Morgan Stanley & Co.]
 
 [NOTE]
@@ -133,6 +192,18 @@ Task Helper is helping to streamline operational work allowing the vital monthly
 3+|_Front & Back Office; C++; Java; C# (WPF); UI & Service Development; Sybase_
 |===
 ====
+endif::[]
+
+ifdef::backend-pdf[]
+[frame=topbot]
+[grid=none]
+[cols="<1,^2,>1"]
+|===
+|*Morgan Stanley & Co.*|*Sept 2000 – Feb 2013 (Permanent)*|*Canary Wharf, London*
+3+|Private Wealth Management (PWM)
+3+|_Front & Back Office; C++; Java; C# (WPF); UI & Service Development; Sybase_
+|===
+endif::[]
 
 Re-wrote the data abstraction and reporting service layer in C++ to enhance the monthly statement generation process.
 PWM went from generating 70,000 client reports in eight hours to 1 million client reports in 30 minutes on the same hardware.
@@ -161,9 +232,11 @@ The new system halved processing overheads, increasing the capacity and reliabil
 |BSc (Hons.) Computing Systems 2:1 from The Nottingham Trent University; 3 A-Levels
 |===
 
+ifdef::backend-html5[]
 == See Also
 
 [horizontal]
 icon:github-square[size=2x]:: https://github.com/akwilson[GitHub]
 icon:linkedin[size=2x]:: https://www.linkedin.com/in/allan-wilson-b5932351/[LinkedIn]
+endif::[]
 

@@ -1,0 +1,28 @@
+extends: default
+base:
+  font-family: Verdana
+  font-size: 9
+
+heading:
+  h1-font-size: 15
+  h2-font-size: 13
+  h3-font-size: 11
+
+font:
+  catalog:
+    Noto Serif:
+      normal: GEM_FONTS_DIR/notoserif-regular-subset.ttf
+      bold: GEM_FONTS_DIR/notoserif-bold-subset.ttf
+      italic: GEM_FONTS_DIR/notoserif-italic-subset.ttf
+      bold_italic: GEM_FONTS_DIR/notoserif-bold_italic-subset.ttf
+    # M+ 1mn supports ASCII and the circled numbers used for conums
+    M+ 1mn:
+      normal: GEM_FONTS_DIR/mplus1mn-regular-subset.ttf
+      bold: GEM_FONTS_DIR/mplus1mn-bold-subset.ttf
+      italic: GEM_FONTS_DIR/mplus1mn-italic-subset.ttf
+      bold_italic: GEM_FONTS_DIR/mplus1mn-bold_italic-subset.ttf
+    Verdana:
+      normal: verdana-normal.ttf
+      italic: verdana-italic.ttf
+      bold: verdana-bold.ttf
+      bold_italic: verdana-bold_italic.ttf
