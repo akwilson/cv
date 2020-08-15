@@ -1,6 +1,8 @@
 = Allan Wilson
 :icons: font
 :stylesheet: stylesheets/monospace.css
+:pdf-theme: pdf-themes/cv-theme.yml
+:pdf-fontsdir: pdf-themes/fonts
 :nofooter:
 
 ifdef::backend-html5[]
