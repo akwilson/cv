@@ -15,7 +15,6 @@ icon:asterisk[]:: Primarily involved with software development but worked on all
 == Employment History
 
 === https://www.bnpparibas.co.uk[BNP Paribas]
-_Front Office; Sell Side; Java Micro Services; FIX; ION_
 
 [NOTE]
 ====
@@ -24,6 +23,7 @@ _Front Office; Sell Side; Java Micro Services; FIX; ION_
 [cols="<1,^2,>1"]
 |===
 |*Credit e-Trading*|*April 2019 – Present (Contract)*|*Marylebone, London*
+3+|_Front Office; Sell Side; Java Micro Services; FIX; ION_
 |===
 ====
 
@@ -42,17 +42,17 @@ When orders are received the plug-in allows the BNP trader to adjust the agreed 
 This plug-in, written in C#, uses ION’s proprietary .Net libraries to display the order to the trader as well as the result of some internal consistency and compliance checks.
 
 === https://demo.gammadex.com[GammaDEX – Decentralized Ethereum Token Exchange]
-_Ethereum Blockchain; Solidity; JavaScript; Node.js; React; PostgreSQL_
 
 [NOTE]
 ====
 [frame=none]
 [grid=none]
-[cols="<1,^2,>1"]
+[cols="<30,^35,>35"]
 |===
 |*Personal Project*
 |*March 2018 – April 2019*
 |*Canary Wharf, London*
+3+|_Ethereum Blockchain; Solidity; JavaScript; Node.js; React; PostgreSQL_
 |===
 ====
 
@@ -70,7 +70,6 @@ Game state is maintained on-chain.
 Users pay small amounts of Ether to take turns to make moves, the winner claiming all of the funds paid in during the game.
 
 === https://www.morganstanley.com[Morgan Stanley & Co.]
-_Front Office, Buy Side; Java 8 Service; Sybase_
 
 [NOTE]
 ====
@@ -81,6 +80,7 @@ _Front Office, Buy Side; Java 8 Service; Sybase_
 |*Investment Management (MSIM)*
 |*Aug 2015 – March 2018 (Contract)*
 |*Canary Wharf, London*
+3+|_Front Office, Buy Side; Java 8 Service; Sybase_
 |===
 ====
 
@@ -99,17 +99,17 @@ Several other problems were detected which cannot be fixed by the vendor.
 Juno is providing the MSIM business with up-to-date, accurate position data which cannot be provided by the vendor alone.
 
 === https://www.credit-suisse.com[Credit Suisse Securities Ltd.]
-_Back Office; C# (WPF); UI Development_
 
 [NOTE]
 ====
 [frame=none]
 [grid=none]
-[cols="<1,^2,>1"]
+[cols="<25,^40,>35"]
 |===
 |*Market Risk*
 |*Feb 2013 – Aug 2015 (Contract)*
 |*Canary Wharf, London*
+3+|_Back Office; C# (WPF); UI Development_
 |===
 ====
 
@@ -120,7 +120,6 @@ Developed the Task Helper, a framework to automate time consuming manual tasks i
 Task Helper is helping to streamline operational work allowing the vital monthly recut process become a daily one.
 
 === https://www.morganstanley.com[Morgan Stanley & Co.]
-_Front & Back Office; C++; Java; C# (WPF); UI & Service Development; Sybase_
 
 [NOTE]
 ====
@@ -131,6 +130,7 @@ _Front & Back Office; C++; Java; C# (WPF); UI & Service Development; Sybase_
 |*Private Wealth Management (PWM)*
 |*Sept 2000 – Feb 2013 (Permanent)*
 |*Canary Wharf, London*
+3+|_Front & Back Office; C++; Java; C# (WPF); UI & Service Development; Sybase_
 |===
 ====
 
