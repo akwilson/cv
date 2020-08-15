@@ -213,6 +213,8 @@ Sole developer and co-designer on a project to replace the transaction booking s
 Written in C++ with a small Visual Basic UI.
 The new system halved processing overheads, increasing the capacity and reliability of the PWM platform and facilitated further growth of the business globally.
 
+Designed and implemented a replacement portfolio performance calculation engine in C++.  The replacement was faster, more accurate and calculates daily performance values.
+
 == Skills / Education
 
 [frame=none]
