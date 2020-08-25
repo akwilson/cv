@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 2.0.10">
+<title>Allan Wilson</title>
+<style>
+/* Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
+
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro");
+@import url(stylesheets/asciidoctor.css);  /* Default asciidoc style framework - important */
+
+/* CUSTOMISATIONS */
+/* Change the values in root for quick customisation. If you want even more fine grain... venture further. */
+:root{
+--maincolor:#FFFFFF;
+--primarycolor:#000000;
+--secondarycolor:#000000;
+--tertiarycolor: #000000;
+--sidebarbackground:#CCC;
+--linkcolor:#000000;
+--linkcoloralternate:#f44336;
+--white:#FFFFFF;
+--black:#000000;
+}
+
+body{font-family: "Source Code Pro",sans-serif;}
+
+/* Text styles */
+h1{color:var(--primarycolor) !important; font-family: "Source Code Pro",sans-serif;}
+h2,h3,h4,h5,h6{color:var(--secondarycolor) !important; font-family: "Source Code Pro",sans-serif;}
+.title{color:var(--tertiarycolor) !important; font-family:"Source Code Pro",sans-serif !important;font-style: normal !important; font-weight: normal !important;}
+/*
+.sect2 {
+    margin-left: 4em;
+}
+*/
+
+/* Sidebar */
+#toctitle{font-family: "Source Code Pro",sans-serif;}
+.sectlevel1{font-family: "Source Code Pro",sans-serif!important;}
+.sectlevel2{font-family: "Source Code Pro",sans-serif!important;}
+
+/* Responsiveness fixes */
+video {
+  max-width: 100%;
+}
+
+table.tableblock {
+    margin-bottom: 0;
+}
+
+@media all and (max-width: 600px) {
+table {
+  width: 55vw!important;
+  font-size: 3vw;
+}
+
+
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="article">
+<div id="header">
+<h1>Allan Wilson</h1>
+</div>
+<div id="content">
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>Curriculum Vitae</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_summary">Summary</h2>
+<div class="sectionbody">
+<div class="hdlist">
+<table>
+<tr>
+<td class="hdlist1">
+<span class="icon"><i class="fa fa-asterisk"></i></span>
+</td>
+<td class="hdlist2">
+<p>Senior Software Analyst/Developer with nineteen years of experience in the Investment Banking industry</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+<span class="icon"><i class="fa fa-asterisk"></i></span>
+</td>
+<td class="hdlist2">
+<p>Proven track record of designing and developing software solutions to complex business problems using Java, JavaScript, C# and C++, both on the user interface and server side</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+<span class="icon"><i class="fa fa-asterisk"></i></span>
+</td>
+<td class="hdlist2">
+<p>Made a significant impact to the business by delivering on a diverse range of projects from back-office client reporting and server-side processing to front-office real-time trading</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+<span class="icon"><i class="fa fa-asterisk"></i></span>
+</td>
+<td class="hdlist2">
+<p>Primarily involved with software development but worked on all stages of the software life-cycle to help build good relationships with Traders, Investment Advisors and Operations staff</p>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_employment_history">Employment History</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_bnp_paribas"><a href="https://www.bnpparibas.co.uk">BNP Paribas</a></h3>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<table class="tableblock frame-none grid-none stretch">
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 50%;">
+<col style="width: 25%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Credit e-Trading</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>April 2019 – Present (Contract)</strong></p></td>
+<td class="tableblock halign-right valign-top"><p class="tableblock"><strong>Marylebone, London</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" colspan="3"><p class="tableblock"><em>Front Office; Sell Side; Java Micro Services; FIX; ION</em></p></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Developed an internal ION gateway to trade Asset Backed Securities.
+The Java service manages the workflow between sales and traders within BNP using a finite state machine to keep track of the state of the request as it goes through the negotiation process.
+When agreed a trade is published to ION for downstream consumption.
+A data warehouse component was also built to log all changes to the request for MiFID compliance.
+Worked with the front-end Omega team to agree a JSON API and with the business to understand workflow for this new market.</p>
+</div>
+<div class="paragraph">
+<p>Developed a service to read credit pricing data from MarketAxess.
+The service comprises a FIX acceptor which consumes a stream of data published over a secure TCP connection.
+Written in Java using Quickfix/J, the service publishes the prices to BNP’s ION environment for use by the quants team.</p>
+</div>
+<div class="paragraph">
+<p>Built a plug-in for ION.Net to allow BNP Credit traders to execute orders received from Blackrock.
+When orders are received the plug-in allows the BNP trader to adjust the agreed quantity to fill or partially fill an order.
+This plug-in, written in C#, uses ION’s proprietary .Net libraries to display the order to the trader as well as the result of some internal consistency and compliance checks.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_gammadex_decentralized_ethereum_token_exchange"><a href="https://demo.gammadex.com">GammaDEX – Decentralized Ethereum Token Exchange</a></h3>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<table class="tableblock frame-none grid-none stretch">
+<colgroup>
+<col style="width: 30%;">
+<col style="width: 35%;">
+<col style="width: 35%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Personal Project</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>March 2018 – April 2019</strong></p></td>
+<td class="tableblock halign-right valign-top"><p class="tableblock"><strong>Canary Wharf, London</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" colspan="3"><p class="tableblock"><em>Ethereum Blockchain; Solidity; JavaScript; Node.js; React; PostgreSQL</em></p></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Engaged in a full-time project with two former Morgan Stanley colleagues to build GammaDEX, a decentralised Ethereum token exchange with the aim of building the application out in to a profitable business.
+GammaDEX went live in August, 2018 and attracted a small but loyal user base.</p>
+</div>
+<div class="paragraph">
+<p>Primarily focussed on the design and development of backend services to synchronise orders between GammaDEX and external exchanges sharing the same smart contract.
+The system maintained a complete order book in our PostgreSQL database and had to load data from unreliable and inconsistent external exchange sources.</p>
+</div>
+<div class="paragraph">
+<p>Learnt several new skills to deliver this project including Ethereum blockchain, smart contract development, Web3, Node.js and React.
+Became a domain expert on blockchain development and application design and also the decentralised exchange space including 0x, Bancor and EtherDelta.</p>
+</div>
+<div class="paragraph">
+<p>Built and deployed a Connect 4 game implementation on the Ethereum Blockchain and a front-end interface using Web3, React and Redux.
+Game state is maintained on-chain.
+Users pay small amounts of Ether to take turns to make moves, the winner claiming all of the funds paid in during the game.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_morgan_stanley_co"><a href="https://www.morganstanley.com">Morgan Stanley &amp; Co.</a></h3>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<table class="tableblock frame-none grid-none stretch">
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 50%;">
+<col style="width: 25%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Investment Management (MSIM)</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Aug 2015 – March 2018 (Contract)</strong></p></td>
+<td class="tableblock halign-right valign-top"><p class="tableblock"><strong>Canary Wharf, London</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" colspan="3"><p class="tableblock"><em>Front Office, Buy Side; Java 8 Service; Sybase</em></p></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Sole developer on Juno, a greenfield project to develop an Investment Book of Record for MSIM.
+The Juno system includes the Juno Engine, a transaction loader and position reconciliation.</p>
+</div>
+<div class="paragraph">
+<p>The Juno Engine calculates positions on demand from underlying transactions to produce real-time positions for use in downstream applications such as MSIM’s order entry and reporting systems.
+Juno provides position quantity data and calculates book cost in local, client and firm currencies.</p>
+</div>
+<div class="paragraph">
+<p>Transactions are loaded in to a Sybase database, via a SOAP based service, from ESP, the Accounting Book of Record supplied by a third-party vendor.
+Transaction deltas are loaded using a synchronisation process that determines which transactions in ESP need to be cancelled/inserted/updated in the local database.
+The sync is re-runnable and provides fast access to a consistent view of transaction data.</p>
+</div>
+<div class="paragraph">
+<p>By using Juno to reconcile positions vs ESP we identified 30 problems with the vendor’s end of day processes.
+Several other problems were detected which cannot be fixed by the vendor.
+Juno is providing the MSIM business with up-to-date, accurate position data which cannot be provided by the vendor alone.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_credit_suisse_securities_ltd"><a href="https://www.credit-suisse.com">Credit Suisse Securities Ltd.</a></h3>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<table class="tableblock frame-none grid-none stretch">
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 40%;">
+<col style="width: 35%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Market Risk</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Feb 2013 – Aug 2015 (Contract)</strong></p></td>
+<td class="tableblock halign-right valign-top"><p class="tableblock"><strong>Canary Wharf, London</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" colspan="3"><p class="tableblock"><em>Back Office; C# (WPF); UI Development</em></p></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Built a series of enhancements to the WPF based TSRD GUI including an interface for a new mechanism to analyse and manage the quality of time series data.
+Introduced view composition using dependency injection with MEF and MVVM Light to make the code base more manageable, help with unit testing and allow greater component reuse.</p>
+</div>
+<div class="paragraph">
+<p>Developed the Task Helper, a framework to automate time consuming manual tasks in to a user focussed multi-step workflow.
+Task Helper is helping to streamline operational work allowing the vital monthly recut process become a daily one.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_morgan_stanley_co_2"><a href="https://www.morganstanley.com">Morgan Stanley &amp; Co.</a></h3>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<table class="tableblock frame-none grid-none stretch">
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 50%;">
+<col style="width: 25%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Private Wealth Management (PWM)</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Sept 2000 – Feb 2013 (Permanent)</strong></p></td>
+<td class="tableblock halign-right valign-top"><p class="tableblock"><strong>Canary Wharf, London</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" colspan="3"><p class="tableblock"><em>Front &amp; Back Office; C++; Java; C# (WPF); UI &amp; Service Development; Sybase</em></p></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Re-wrote the data abstraction and reporting service layer in C++ to enhance the monthly statement generation process.
+PWM went from generating 70,000 client reports in eight hours to 1 million client reports in 30 minutes on the same hardware.
+The new system was scalable enough to allow for additional growth by adding additional hardware.</p>
+</div>
+<div class="paragraph">
+<p>Sole developer and co-designer on a project to replace the transaction booking system in all PWM regions.
+Written in C++ with a small Visual Basic UI.
+The new system halved processing overheads, increasing the capacity and reliability of the PWM platform and facilitated further growth of the business globally.</p>
+</div>
+<div class="paragraph">
+<p>Designed and implemented a replacement portfolio performance calculation engine in C++.  The replacement was faster, more accurate and calculates daily performance values.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_skills_education">Skills / Education</h2>
+<div class="sectionbody">
+<table class="tableblock frame-none grid-none stretch">
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 75%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Server Technologies</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Java 11; C/C++; JavaScript (Node.js); PostgreSQL/Sybase/Informix; FIX; ION; Ethereum Blockchain; Solidity</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>UI Technologies</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">C# (WPF); Infragistics controls; JavaScript (Angular.js, React, Redux); Web3</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Business Knowledge</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Investment Banking; Market Risk; Portfolio Accounting; Financial Products (incl. Equities, Bonds, Mutual Funds, Listed Options); Data Mining</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Academic Achievements</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">BSc (Hons.) Computing Systems 2:1 from The Nottingham Trent University; 3 A-Levels</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_see_also">See Also</h2>
+<div class="sectionbody">
+<div class="hdlist">
+<table>
+<tr>
+<td class="hdlist1">
+<span class="icon"><i class="fa fa-github-square fa-2x"></i></span>
+</td>
+<td class="hdlist2">
+<p><a href="https://github.com/akwilson">GitHub</a></p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+<span class="icon"><i class="fa fa-linkedin fa-2x"></i></span>
+</td>
+<td class="hdlist2">
+<p><a href="https://www.linkedin.com/in/allan-wilson-b5932351/">LinkedIn</a></p>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,3 @@
+= My CV as an asciidoc file
+
+Run `make` to create a pdf and an HTML document.
