@@ -20,6 +20,39 @@ icon:asterisk[]:: Primarily involved with software development but worked on all
 
 // Section header for web output
 ifdef::backend-html5[]
+=== https://www.hsbc.co.uk[HSBC]
+
+[NOTE]
+====
+[frame=none]
+[grid=none]
+[cols="<25,^40,>35"]
+|===
+|*GDM Falcon*|*July 2021 – Present (Contract)*|*Canary Wharf, London*
+3+|_Front Office; Sell Side; Java 8 Service; Google Cloud Platform_
+|===
+====
+endif::[]
+
+// Same as above but for PDF output
+ifdef::backend-pdf[]
+[frame=topbot]
+[grid=none]
+[cols="<1,^2,>1"]
+|===
+|*HSBC*|*April 2019 – Present (Contract)*|*Canary Wharf, London*
+3+|GDM Falcon
+3+|_Front Office; Sell Side; Java 8 Service; Google Cloud Platform_
+|===
+endif::[]
+
+GDM Falcon is HSBC's strategic platform for Fixed Income e-Trading.
+Worked with the Core team to build out an end-to-end testing environment using Google Cloud Platform, Docker and Jenkins.
+Developers elsewhere in the team are now able to spin up a Falcon instance in a Virtual Machine and run the end-to-end testing suite on it.
+Docker containers containing the given branch and build number are created and run on a VM provisioned on demand.
+The system allowed the project to gain certification within HSBC which shortened the deployment process considerably.
+
+ifdef::backend-html5[]
 === https://www.bnpparibas.co.uk[BNP Paribas]
 
 [NOTE]
@@ -28,13 +61,12 @@ ifdef::backend-html5[]
 [grid=none]
 [cols="<1,^2,>1"]
 |===
-|*Credit e-Trading*|*April 2019 – Present (Contract)*|*Marylebone, London*
+|*Credit e-Trading*|*April 2019 – June 2020 (Contract)*|*Marylebone, London*
 3+|_Front Office; Sell Side; Java Micro Services; FIX; ION_
 |===
 ====
 endif::[]
 
-// Same as above but for PDF output
 ifdef::backend-pdf[]
 [frame=topbot]
 [grid=none]
@@ -98,10 +130,6 @@ The system maintained a complete order book in our PostgreSQL database and had t
 
 Learnt several new skills to deliver this project including Ethereum blockchain, smart contract development, Web3, Node.js and React.
 Became a domain expert on blockchain development and application design and also the decentralised exchange space including 0x, Bancor and EtherDelta.
-
-Built and deployed a Connect 4 game implementation on the Ethereum Blockchain and a front-end interface using Web3, React and Redux.
-Game state is maintained on-chain.
-Users pay small amounts of Ether to take turns to make moves, the winner claiming all of the funds paid in during the game.
 
 ifdef::backend-html5[]
 === https://www.morganstanley.com[Morgan Stanley & Co.]
@@ -176,9 +204,6 @@ endif::[]
 Built a series of enhancements to the WPF based TSRD GUI including an interface for a new mechanism to analyse and manage the quality of time series data.
 Introduced view composition using dependency injection with MEF and MVVM Light to make the code base more manageable, help with unit testing and allow greater component reuse.
 
-Developed the Task Helper, a framework to automate time consuming manual tasks in to a user focussed multi-step workflow.
-Task Helper is helping to streamline operational work allowing the vital monthly recut process become a daily one.
-
 ifdef::backend-html5[]
 === https://www.morganstanley.com[Morgan Stanley & Co.]
 
@@ -215,8 +240,6 @@ Sole developer and co-designer on a project to replace the transaction booking s
 Written in C++ with a small Visual Basic UI.
 The new system halved processing overheads, increasing the capacity and reliability of the PWM platform and facilitated further growth of the business globally.
 
-Designed and implemented a replacement portfolio performance calculation engine in C++.  The replacement was faster, more accurate and calculates daily performance values.
-
 == Skills / Education
 
 [frame=none]
@@ -224,7 +247,7 @@ Designed and implemented a replacement portfolio performance calculation engine 
 [cols="1,3"]
 |===
 |*Server Technologies*
-|Java 11; C/C++; JavaScript (Node.js); PostgreSQL/Sybase/Informix; FIX; ION; Ethereum Blockchain; Solidity
+|Java 11; C/C++; JavaScript (Node.js); PostgreSQL/Sybase/Informix; FIX; ION; Ethereum Blockchain; Solidity; Docker; Google Cloud Platform
 
 |*UI Technologies*
 |C# (WPF); Infragistics controls; JavaScript (Angular.js, React, Redux); Web3
