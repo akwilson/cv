@@ -40,7 +40,7 @@ ifdef::backend-pdf[]
 [grid=none]
 [cols="<1,^2,>1"]
 |===
-|*HSBC*|*April 2019 – Present (Contract)*|*Canary Wharf, London*
+|*HSBC*|*July 2021 – Present (Contract)*|*Canary Wharf, London*
 3+|GDM Falcon
 3+|_Front Office; Sell Side; Java 8 Service; Google Cloud Platform_
 |===
@@ -61,8 +61,8 @@ ifdef::backend-html5[]
 [grid=none]
 [cols="<1,^2,>1"]
 |===
-|*Credit e-Trading*|*April 2019 – June 2020 (Contract)*|*Marylebone, London*
-3+|_Front Office; Sell Side; Java Micro Services; FIX; ION_
+|*Credit e-Trading*|*April 2019 – June 2021 (Contract)*|*Marylebone, London*
+3+|_Front Office; Sell Side; Java Micro Services; Spring; FIX; ION_
 |===
 ====
 endif::[]
@@ -72,9 +72,9 @@ ifdef::backend-pdf[]
 [grid=none]
 [cols="<1,^2,>1"]
 |===
-|*BNP Paribas*|*April 2019 – Present (Contract)*|*Marylebone, London*
+|*BNP Paribas*|*April 2019 – June 2021 (Contract)*|*Marylebone, London*
 3+|Credit e-Trading
-3+|_Front Office; Sell Side; Java Micro Services; FIX; ION_
+3+|_Front Office; Sell Side; Java Micro Services; Spring; FIX; ION_
 |===
 endif::[]
 
@@ -247,10 +247,10 @@ The new system halved processing overheads, increasing the capacity and reliabil
 [cols="1,3"]
 |===
 |*Server Technologies*
-|Java 11; C/C++; JavaScript (Node.js); PostgreSQL/Sybase/Informix; FIX; ION; Ethereum Blockchain; Solidity; Docker; Google Cloud Platform
+|Java 11; C/C++; JavaScript (Node.js); PostgreSQL/Sybase/Informix; FIX; ION; Spring; Ethereum Blockchain; Solidity; Docker; Google Cloud Platform
 
 |*UI Technologies*
-|C# (WPF); Infragistics controls; JavaScript (Angular.js, React, Redux); Web3
+|C# (WPF); Infragistics; Vaadin; JavaScript (Angular.js, React, Redux); Web3
 
 |*Business Knowledge*
 |Investment Banking; Market Risk; Portfolio Accounting; Financial Products (incl. Equities, Bonds, Mutual Funds, Listed Options); Data Mining
