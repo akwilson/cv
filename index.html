@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.17">
+<meta name="generator" content="Asciidoctor 2.0.18">
 <title>Allan Wilson</title>
 <style>
 /* Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -77,47 +77,72 @@ table {
 <div class="sect1">
 <h2 id="_summary">Summary</h2>
 <div class="sectionbody">
-<div class="hdlist">
-<table>
-<tr>
-<td class="hdlist1">
-<span class="icon"><i class="fa fa-asterisk"></i></span>
-</td>
-<td class="hdlist2">
+<div class="ulist">
+<ul>
+<li>
 <p>Senior Software Analyst/Developer with nineteen years of experience in the Investment Banking industry</p>
-</td>
-</tr>
-<tr>
-<td class="hdlist1">
-<span class="icon"><i class="fa fa-asterisk"></i></span>
-</td>
-<td class="hdlist2">
+</li>
+<li>
 <p>Proven track record of designing and developing software solutions to complex business problems using Java, JavaScript, C# and C++, both on the user interface and server side</p>
-</td>
-</tr>
-<tr>
-<td class="hdlist1">
-<span class="icon"><i class="fa fa-asterisk"></i></span>
-</td>
-<td class="hdlist2">
+</li>
+<li>
 <p>Made a significant impact to the business by delivering on a diverse range of projects from back-office client reporting and server-side processing to front-office real-time trading</p>
-</td>
-</tr>
-<tr>
-<td class="hdlist1">
-<span class="icon"><i class="fa fa-asterisk"></i></span>
-</td>
-<td class="hdlist2">
+</li>
+<li>
 <p>Primarily involved with software development but worked on all stages of the software life-cycle to help build good relationships with Traders, Investment Advisors and Operations staff</p>
-</td>
-</tr>
-</table>
+</li>
+</ul>
 </div>
 </div>
 </div>
 <div class="sect1">
 <h2 id="_employment_history">Employment History</h2>
 <div class="sectionbody">
+<div class="sect2">
+<h3 id="_g_research"><a href="https://www.gresearch.co.uk">G Research</a></h3>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<table class="tableblock frame-none grid-none stretch">
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 40%;">
+<col style="width: 35%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data Engineering</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>March 2022 – Present (Contract)</strong></p></td>
+<td class="tableblock halign-right valign-top"><p class="tableblock"><strong>Fitzrovia, London</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" colspan="3"><p class="tableblock"><em>Kotlin; Spring Boot; Kubernetes</em></p></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Worked as a senior developer within the Data Engineering team responsible for ingesting data sets and making them available to Quantitative Analysts.
+Re-wrote a number of data ingestion streams as part of G Research&#8217;s multi-year migration to a private cloud platform.
+This involved porting a series of complex SQL based data transformations to Kotlin Spring Boot applications interfacing with Kafka running through Kubernetes.
+Developed a library as a Kotlin DSL to upload CSV data to SQL Server to simplify part of this process and facilitate re-use.</p>
+</div>
+<div class="paragraph">
+<p>Built an automated testing tool in Python to compare the results of the new application vs. the old using the index-merge algorithm.
+This tool has been useful across the team for other regression testing efforts.</p>
+</div>
+<div class="paragraph">
+<p>Worked with a second team in G Research to build a number of data downloader tools in Kotlin.
+These downloaders are more reliable and easier to monitor than the shell scripts that they replace and provide a pattern for future downloader efforts in Kotlin / Kubernetes.</p>
+</div>
+</div>
 <div class="sect2">
 <h3 id="_hsbc"><a href="https://www.hsbc.co.uk">HSBC</a></h3>
 <div class="admonitionblock note">
@@ -136,7 +161,7 @@ table {
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>GDM Falcon</strong></p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>July 2021 – Present (Contract)</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>July 2021 – March 2022 (Contract)</strong></p></td>
 <td class="tableblock halign-right valign-top"><p class="tableblock"><strong>Canary Wharf, London</strong></p></td>
 </tr>
 <tr>
@@ -149,11 +174,7 @@ table {
 </table>
 </div>
 <div class="paragraph">
-<p>GDM Falcon is HSBC&#8217;s strategic platform for Fixed Income e-Trading.
-Worked with the Core team to build out an end-to-end testing environment using Google Cloud Platform, Docker and Jenkins.
-Developers elsewhere in the team are now able to spin up a Falcon instance in a Virtual Machine and run the end-to-end testing suite on it.
-Docker containers containing the given branch and build number are created and run on a VM provisioned on demand.
-The system allowed the project to gain certification within HSBC which shortened the deployment process considerably.</p>
+<p>Built an end-to-end testing environment using Google Cloud Platform, Docker and Jenkins for the GDM Falcon Core team.</p>
 </div>
 </div>
 <div class="sect2">
@@ -242,10 +263,6 @@ GammaDEX went live in August, 2018 and attracted a small but loyal user base.</p
 <p>Primarily focussed on the design and development of backend services to synchronise orders between GammaDEX and external exchanges sharing the same smart contract.
 The system maintained a complete order book in our PostgreSQL database and had to load data from unreliable and inconsistent external exchange sources.</p>
 </div>
-<div class="paragraph">
-<p>Learnt several new skills to deliver this project including Ethereum blockchain, smart contract development, Web3, Node.js and React.
-Became a domain expert on blockchain development and application design and also the decentralised exchange space including 0x, Bancor and EtherDelta.</p>
-</div>
 </div>
 <div class="sect2">
 <h3 id="_morgan_stanley_co"><a href="https://www.morganstanley.com">Morgan Stanley &amp; Co.</a></h3>
@@ -279,20 +296,14 @@ Became a domain expert on blockchain development and application design and also
 </div>
 <div class="paragraph">
 <p>Sole developer on Juno, a greenfield project to develop an Investment Book of Record for MSIM.
-The Juno system includes the Juno Engine, a transaction loader and position reconciliation.</p>
-</div>
-<div class="paragraph">
-<p>The Juno Engine calculates positions on demand from underlying transactions to produce real-time positions for use in downstream applications such as MSIM’s order entry and reporting systems.
-Juno provides position quantity data and calculates book cost in local, client and firm currencies.</p>
+The Juno Engine calculates positions on demand from underlying transactions to produce real-time positions for use in downstream applications such as MSIM’s order entry and reporting systems.</p>
 </div>
 <div class="paragraph">
 <p>Transactions are loaded in to a Sybase database, via a SOAP based service, from ESP, the Accounting Book of Record supplied by a third-party vendor.
-Transaction deltas are loaded using a synchronisation process that determines which transactions in ESP need to be cancelled/inserted/updated in the local database.
-The sync is re-runnable and provides fast access to a consistent view of transaction data.</p>
+Transaction deltas are loaded using a synchronisation process that determines which transactions in ESP need to be cancelled/inserted/updated in the local database.</p>
 </div>
 <div class="paragraph">
-<p>By using Juno to reconcile positions vs ESP we identified 30 problems with the vendor’s end of day processes.
-Several other problems were detected which cannot be fixed by the vendor.
+<p>By using Juno to reconcile positions vs. ESP we identified 30 problems with the vendor’s end of day processes, several of which they could not fix.
 Juno is providing the MSIM business with up-to-date, accurate position data which cannot be provided by the vendor alone.</p>
 </div>
 </div>
@@ -363,13 +374,10 @@ Introduced view composition using dependency injection with MEF and MVVM Light t
 </div>
 <div class="paragraph">
 <p>Re-wrote the data abstraction and reporting service layer in C++ to enhance the monthly statement generation process.
-PWM went from generating 70,000 client reports in eight hours to 1 million client reports in 30 minutes on the same hardware.
-The new system was scalable enough to allow for additional growth by adding additional hardware.</p>
+PWM went from generating 70,000 client reports in eight hours to 1 million client reports in 30 minutes on the same hardware.</p>
 </div>
 <div class="paragraph">
-<p>Sole developer and co-designer on a project to replace the transaction booking system in all PWM regions.
-Written in C++ with a small Visual Basic UI.
-The new system halved processing overheads, increasing the capacity and reliability of the PWM platform and facilitated further growth of the business globally.</p>
+<p>Sole developer and co-designer on a project to replace the transaction booking system in all PWM regions.</p>
 </div>
 </div>
 </div>
@@ -385,7 +393,7 @@ The new system halved processing overheads, increasing the capacity and reliabil
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Server Technologies</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Java 11; C/C++; JavaScript (Node.js); PostgreSQL/Sybase/Informix; FIX; ION; Spring; Ethereum Blockchain; Solidity; Docker; Google Cloud Platform</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Java 11; Kotlin; C/C++; JavaScript (Node.js); PostgreSQL/Sybase/Informix; FIX; ION; Spring; Kubernetes; Docker; Google Cloud Platform; Kafka</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>UI Technologies</strong></p></td>
